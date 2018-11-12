@@ -7,7 +7,7 @@ const ul = document.querySelector('.student-list');
 
 const ulList = ul.children;
 
-//let newList = [];
+let newList = [];
 
 const studentSearch = document.querySelector('.student-search input');
 
