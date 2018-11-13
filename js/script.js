@@ -91,6 +91,8 @@ studentSearch.addEventListener('keyup', (e) => {
     if (li.style.display === ''){
       counter++;
       newList.push(li);
+      //document.removeChild(ulList);
+
     }
   }
 });
