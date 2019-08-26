@@ -46,7 +46,7 @@ const showPage = (list, page) => {
   for (let i = 0; i < list.length; i += 1) {
     let li = list[i];
     if (i >= page * 10 - 10 && i <= page * 10 - 1) {
-      //console.log(li);
+      console.log(li);
       li.style.display = "";
     } else {
       li.style.display = "none";
